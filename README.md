@@ -2,9 +2,9 @@
 
 Ground-truth caption should be stored in a json file with the following format:
 
-{video_id_1(str): {'sentence': [sentence_1, sentence_2, ...], 'split': 'train' / 'val' / 'test'}, 
+{video_id_1(str): {'sentences': [sentence_1, sentence_2, ...], 'split': 'train' / 'val' / 'test'}, 
 
- video_id_2(str): {'sentence': [sentence_1, sentence_2, ...], 'split': 'train' / 'val' / 'test'}, 
+ video_id_2(str): {'sentences': [sentence_1, sentence_2, ...], 'split': 'train' / 'val' / 'test'}, 
  
  ...}
  
